@@ -32,6 +32,29 @@ The SCD-2 logic in this framework enables tracking historical changes in staging
 
 No changes to the underlying code are needed—the framework handles all SCD-2 logic automatically.
 
+## Prerequisites for SCD Type 2
+Before running the SCD Type 2 pipeline, ensure the following prerequisites are met:
+
+**1. Fabric Lakehouse Setup** 
+
+- A working Fabric Lakehouse must be built and accessible.
+- Raw and Staging layers must be defined.
+
+**2.Metadata Configuration File**
+
+- A configuration file specifying the tables to process, their primary keys, incremental columns, and selected columns must be prepared.
+
+**3.Primary Key and Incremental Column Defined**
+
+- Each table must have a unique primary key for deduplication.
+
+- Incremental column (e.g., timestamp) is required for detecting changes for incremental loads.
+
+**4.Dependencies**
+
+- Ensure the environment has all required Python packages installed for Spark, Delta Lake, and other data processing utilities.
+
+- Optional: Logging framework for writing processing logs to monitor.staging_log.
 
 
 ## Utility Functions
