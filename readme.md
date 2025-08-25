@@ -87,4 +87,9 @@ Status (Success, Fail, Skipped)
 The logs are written to a Fabric Lakehouse table: monitor.staging_log
 
 
+## Contributing
+
+Found a table, column, or feature that’s missing? Want to improve the SCD-2 configuration or logging process? Feel free to open an issue or submit a pull request!
+
+
 
