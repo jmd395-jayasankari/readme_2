@@ -43,15 +43,16 @@ Before running the SCD Type 2 pipeline, ensure the following prerequisites are m
 **2.Metadata Configuration File**
 
 - A configuration file specifying the tables to process, their primary keys, incremental columns, and selected columns must be prepared.
+  
 Once the metadata configuration is provided, the framework automatically handles:
 
-- Full initial loads for new tables or new columns
+  - Full initial loads for new tables or new columns
 
-- Incremental change detection
+  - Incremental change detection
 
-- Type 2 updates for historical data
+  - Type 2 updates for historical data
 
-- Logging of each operation with row counts and status
+  - Logging of each operation with row counts and status
 
 **3.Primary Key and Incremental Column Defined**
 
