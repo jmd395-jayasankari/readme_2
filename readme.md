@@ -112,7 +112,11 @@ Status (Success, Fail, Skipped)
 
 - Timestamp and descriptive message
 
-The logs are written to a Fabric Lakehouse table: monitor.staging_log
+**Log File Location**
+
+  - All logs are written to the Fabric Lakehouse table:
+
+    <LakehouseName>/Tables/monitoring/staging_log
 
 
 ## Contributing
