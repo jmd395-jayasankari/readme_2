@@ -35,6 +35,7 @@ No changes to the underlying code are needed—the framework handles all SCD-2 l
 ## Prerequisites for SCD Type 2
 Before running the SCD Type 2 pipeline, ensure the following prerequisites are met:
 
+
 **1. Fabric Lakehouse Setup** 
 
 - A working Fabric Lakehouse must be built and accessible.
@@ -83,7 +84,16 @@ Once the metadata configuration is provided, the framework automatically handles
 - Ensure the environment has all required Python packages installed for Spark, Delta Lake, and other data processing utilities.
 
 - Optional: Logging framework for writing processing logs to monitor.staging_log.
+  
+**5.Data Quality**
 
+Before processing, the source/staging data must meet the following requirements:
+
+| Field                              | Format                                                               |
+|--------------------------------    |-----------------------------------------------------------------------------|
+| `Incremental Column`               | YYYY-MM-DD HH:MM:SS                                                  |
+| `Date / Timestamp Columns`         | YYYY-MM-DD HH:MM:SS                                                  |
+| `Tracked Columns`                  | Consistent Data Type                                                 | 
 
 ## Utility Functions
 A set of helper methods for table validation, column selection, hashing, key generation, and SCD metadata management.
