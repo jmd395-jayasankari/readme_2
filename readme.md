@@ -56,7 +56,7 @@ Once the metadata configuration is provided, the framework automatically handles
 
     **MetadataFile Location and Updates**
     - The metadata configuration file should be maintained in the Fabric Lakehouse under the following path:
-         - _ <LakehouseName>/Tables/config/metadata_config.csv _
+         - <LakehouseName>/Tables/config/metadata_config.csv _
      
     **Handling Multiple Primary Keys**
     - In the configuration file, multiple primary keys should be defined using the | delimiter.
