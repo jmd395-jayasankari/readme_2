@@ -57,7 +57,8 @@ Once the metadata configuration is provided, the framework automatically handles
     **MetadataFile Location and Updates**
     - The metadata configuration file should be maintained in the Fabric Lakehouse under the following path:
           Lakehouse_Name/Tables/config/metadata_config.csv
-     ** How to update:**
+      
+     **How to update:**
         - Download the existing metadata_config.csv file locally.
         
         - Add or modify entries (tables, primary keys, incremental columns, tracked columns).
