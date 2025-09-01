@@ -65,7 +65,9 @@ Once the metadata configuration is provided, the framework automatically handles
      
     **Handling Multiple Primary Keys**
     - In the configuration file, multiple primary keys should be defined using the | delimiter.
-       _Example: customer_id|region_id_
+   
+      
+       Example: customer_id | region_id
 
 **3.Primary Key and Incremental Column Defined**
 
