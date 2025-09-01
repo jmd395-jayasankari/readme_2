@@ -59,6 +59,7 @@ Once the metadata configuration is provided, the framework automatically handles
           Lakehouse_Name/Tables/config/metadata_staging_config.csv
       
      **How to update:**
+    
         1. Download the existing metadata_config.csv file locally.
     
         2. Add or modify entries (tables, primary keys, incremental columns, tracked columns).
