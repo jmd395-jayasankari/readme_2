@@ -59,13 +59,15 @@ Once the metadata configuration is provided, the framework automatically handles
           Lakehouse_Name/Tables/config/metadata_staging_config.csv
       
      **How to update:**
-        - Download the existing metadata_config.csv file locally.
-        - Add or modify entries (tables, primary keys, incremental columns, tracked columns).
-        - Upload the updated file back to the config folder in the Lakehouse.
+        1. Download the existing metadata_config.csv file locally.
+    
+        2. Add or modify entries (tables, primary keys, incremental columns, tracked columns).
+    
+        3. Upload the updated file back to the config folder in the Lakehouse.
      
     **Handling Multiple Primary Keys**
     - In the configuration file, multiple primary keys should be defined using the | delimiter.
-   
+  
       
        Example: customer_id | region_id
 
