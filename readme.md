@@ -69,7 +69,7 @@ Once the metadata configuration is provided, the framework automatically handles
         3. Upload the updated file back to the config folder in the Lakehouse.
      
     **Handling Multiple Primary Keys**
-    - In the configuration file, multiple primary keys should be defined using the | delimiter.
+    - In the configuration file, multiple primary keys should be defined using the **| delimiter**.
   
       
        Example: customer_id | region_id
