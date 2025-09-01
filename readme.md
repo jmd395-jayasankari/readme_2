@@ -60,9 +60,7 @@ Once the metadata configuration is provided, the framework automatically handles
       
      **How to update:**
         - Download the existing metadata_config.csv file locally.
-        
         - Add or modify entries (tables, primary keys, incremental columns, tracked columns).
-        
         - Upload the updated file back to the config folder in the Lakehouse.
      
     **Handling Multiple Primary Keys**
