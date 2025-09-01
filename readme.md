@@ -55,11 +55,11 @@ Once the metadata configuration is provided, the framework automatically handles
 
   - Logging of each operation with row counts and status
 
-    **MetadataFile Location and Updates**
+    **2.1 MetadataFile Location and Updates**
         - The metadata configuration file should be maintained in the Fabric Lakehouse under the following path:
           Lakehouse_Name/Tables/config/metadata_staging_config.csv
       
-     **How to update:**
+     **2.2 How to update:**
     
         1. Download the existing metadata_config.csv file locally.
     
