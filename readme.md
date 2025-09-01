@@ -116,7 +116,7 @@ Status (Success, Fail, Skipped)
 
   - All logs are written to the Fabric Lakehouse table:
 
-    <LakehouseName>/Tables/monitoring/staging_log
+    Lakehouse_Name/Tables/monitoring/staging_log
 
 
 ## Contributing
