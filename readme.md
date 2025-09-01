@@ -54,6 +54,13 @@ Once the metadata configuration is provided, the framework automatically handles
 
   - Logging of each operation with row counts and status
 
+    **MetadataFile Location and Updates**
+    - The metadata configuration file should be maintained in the Fabric Lakehouse under the following path:
+         - **<LakehouseName>/Tables/config/metadata_config.csv**
+    **Handling Multiple Primary Keys**
+    - In the configuration file, multiple primary keys should be defined using the | delimiter.
+       _Example: customer_id|region_id_
+
 **3.Primary Key and Incremental Column Defined**
 
 - Each table must have a unique primary key for deduplication.
