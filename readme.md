@@ -74,8 +74,13 @@ Once the metadata configuration is provided, the framework automatically handles
       
        Example: customer_id | region_id
 
-    **Note:**
-    The Fabric Starter Kit provisions a Lakehouse and creates the required notebooks but does not generate the metadata configuration file required for SCD Type 2 processing. After the Fabric Starter Kit code is pushed to your local environment,you must manually prepare your metadata file and upload it under **workspace_data.csv** and also upload manually to the fabric workspace under **Lakehouse_Name/Tables/config/workspace_data.csv**
+**Note:**  
+- The Fabric Starter Kit provisions a Lakehouse and creates the required notebooks, but it does **not** generate the metadata configuration file needed for SCD Type 2 processing.  
+- After pushing the Fabric Starter Kit code to your local environment, you must: 
+  1. Prepare your metadata file manually.  
+  2. Upload it as **workspace_data.csv** locally.  
+  3. Upload it again to the Fabric Lakehouse under:  
+     `Lakehouse_Name/Tables/config/workspace_data.csv` 
 
 
 **3.Primary Key and Incremental Column Defined**
